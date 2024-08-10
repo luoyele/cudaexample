@@ -1,0 +1,13 @@
+https://github.com/Tony-Tan/CUDA_Freshman
+
+https://www.jianshu.com/p/bb5e4cb00433
+https://www.jianshu.com/p/dc63a7dd5cbc
+
+在安装好CUDA之后, CUDA提供了一些sample, 其他包含deviceQuery 可执行的app, 用法查看本机上的GPU硬件, sample的位置: /usr/local/cuda/samples
+samples目录包含了若干例子, samples的根目录提供的makefile, 因此只需进行make即可生成app:
+make -j8
+查找 deviceQuery 可执行程序:
+cd bin/x84_x64/linux/release
+ls | grep deviceQuery
+# Run
+./deviceQuery
